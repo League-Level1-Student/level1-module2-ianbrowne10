@@ -7,8 +7,10 @@ Person(String name){
 	this.name = name;
 }
 
-public String toString()
+public String toString() { 
+return "My name is "+this.name+" and my power is "+this.superPower+"!";
 }
+
 
 public void setName(String name) {
 	this.name = name;

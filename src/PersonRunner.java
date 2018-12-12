@@ -9,7 +9,7 @@ Person Jeff = new Person("Jeff");
 Jeff.setsuperPower("shrinking");
 System.out.println(Jeff);
 Person Greg = new Person("Greg");
-Greg.setsuperPower("speedy");
+Greg.setsuperPower("speed");
 System.out.println(Greg);
 }
 }
