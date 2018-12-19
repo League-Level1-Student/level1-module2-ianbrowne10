@@ -1,11 +1,20 @@
+
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2017
  *    Level 1
  */
 
 public class TeaMaker {
+public static void main(String[] args) {
+	TeaBag tea = new TeaBag("Mint");
+	Kettle corn = new Kettle();
+	corn.boil();	
+Cup cup = new Cup();
+cup.makeTea(tea, corn.getWater());
+}
 
-	/* Figure out how to make a cup of tea using the classes below */
+/* Figure out how to make a cup of tea using the classes below */
 
 }
 
@@ -15,6 +24,7 @@ class TeaBag {
 	public final static String MINT = "Mint";
 	public final static String CHAMOMILE = "Chamomile";
 	public final static String PASSION_FRUIT = "Passion Fruit";
+
 
 	private String flavor;
 
@@ -64,5 +74,6 @@ class Cup {
 	}
 
 }
+
 
 
